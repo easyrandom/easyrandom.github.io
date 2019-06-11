@@ -1,0 +1,31 @@
+body{
+	background-color: #003602;
+	background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+	color: white;
+	text-align: center;
+	height: 100vh;	
+}
+body #wrapper #main{
+	padding-top: 100px;
+}
+body #wrapper #main h1,
+body #wrapper #main h2{
+	text-shadow: 5px 5px 5px #000;
+}
+
+body #wrapper #main input{
+	margin: 20px 0;	
+}
+body #wrapper{
+	width: 100%;	
+	height: 100vh;	
+	position: relative;
+}
+body #wrapper footer{
+	width: 100%;	
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	bottom: 0;	
+	left: 0;
+}
